@@ -1,0 +1,70 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff0f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #ff69b4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-externo, .menu-interno {
+    display: flex;
+    justify-content: center;
+    background: #ffe4e1;
+    padding: 10px 0;
+    gap: 20px;
+}
+
+.menu-externo a, .menu-interno a {
+    color: #d63384;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.menu-externo a:hover, .menu-interno a:hover {
+    background: #d63384;
+    color: white;
+}
+
+main {
+    padding: 30px;
+}
+
+section {
+    background: #ffeef8;
+    border: 1px solid #f8c6da;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #c71585;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #ffb6c1;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
