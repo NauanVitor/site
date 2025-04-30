@@ -28,7 +28,7 @@ header {
 }
 
 .menu-externo a, .menu-interno a {
-    color: #d63384;
+    color: #4b33d6;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
@@ -37,7 +37,7 @@ header {
 }
 
 .menu-externo a:hover, .menu-interno a:hover {
-    background: #d63384;
+    background: #7a33d6;
     color: white;
 }
 
@@ -54,13 +54,13 @@ section {
 }
 
 h2 {
-    color: #c71585;
+    color: #5915c7;
     margin-bottom: 10px;
 }
 
 footer {
     text-align: center;
-    background: #ffb6c1;
+    background: #d8b6ff;
     color: #fff;
     padding: 15px;
     position: relative;
